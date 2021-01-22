@@ -1,0 +1,25 @@
+{
+    "name": "rover",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "radio-broadcast": "*",
+        "pxt-kitronik-I2C-16-servo": "github:kitronikltd/pxt-kitronik-i2c-16-servo#v0.9.2",
+        "ContinuousServo": "github:tinkertanker/pxt-continuous-servo#v0.0.6",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
